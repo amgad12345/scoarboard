@@ -4,6 +4,7 @@
 
 html {
   height: 100%;
+  background-image: image(imabe);
 }
 
 body {
@@ -13,15 +14,18 @@ body {
   flex-direction: column;
   align-items: center;
   background-color: whitesmoke;
-  color: rgb(14, 14, 14);
+  color: darkgreen;
 }
 
 body, html {
   height: 100%;
+  background-image: url("image/tumblr_o0hkb86L391qb141to1_1280.jpg");
 }
 
 h1 {
   text-align: center;
+  font-size: 6rem;
+  color: darkred;
 }
 
 .teams {
@@ -40,10 +44,30 @@ h1 {
 }
 
 .team h2 {
-  font-size: 2rem;
+  font-size: 7rem;
+color:darkgreen;
 }
 
 .team-1-score, .team-2-score {
   text-align: center;
-  font-size: 5rem;
+  font-size: 7rem;
+  color: black;
+}
+
+
+
+.p2 , .pp2 {
+
+  font-weight: bold;
+  font-size: 2rem;
+  color: maroon;
+
+}
+
+
+.left-text , .right-text {
+
+  font-size: 3rem;
+  font-weight: bold;
+  color: ;
 }
